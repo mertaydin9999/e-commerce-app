@@ -1,0 +1,27 @@
+/*
+  GOOGLE FONTS MONSTSERRAT OLARAK ALINDI
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+  }
+}
+.ant-select-selector {
+  border-color: rgba(85, 84, 84, 0.5) !important;
+  box-shadow: none !important;
+}
+
+.ant-select-selector input::placeholder {
+  color: rgb(161, 159, 159);
+}
+.rjs:focus {
+  outline: none !important;
+}
